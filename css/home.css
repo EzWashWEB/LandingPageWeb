@@ -505,6 +505,12 @@ position: relative;
     width: 100%;
 }
 
+.MapaEz{
+    width: 80%;
+    margin : auto;
+    object-fit: cover;   
+}
+
 /*A partir de 768 pixeles habra un cambio de estilos*/
 @media screen and (min-width: 768px){
     .menu{
@@ -543,6 +549,15 @@ position: relative;
 
     .box__icon{
         margin-right: 30px;
+    }
+
+    
+    .MapaEz{
+        width: 40%;
+        margin: auto;
+        object-fit: cover;
+        text-align: center;
+        margin-bottom: 7%;
     }
 }
 
@@ -618,6 +633,13 @@ position: relative;
         width: 24%;
     }
 
+    .MapaEz{
+        width: 30%;
+        margin: auto;
+        object-fit: cover;
+        text-align: center;
+        margin-bottom: 7%;
+    }
 }
 
 @media screen and (min-width: 1280px){
@@ -645,5 +667,13 @@ position: relative;
 
     .banner__title,.banner__txt{
         font-size: 2em;
+    }
+    
+    .MapaEz{
+        width: 30%;
+        margin: auto;
+        object-fit: cover;
+        text-align: center;
+        margin-bottom: 7%;
     }
 }
